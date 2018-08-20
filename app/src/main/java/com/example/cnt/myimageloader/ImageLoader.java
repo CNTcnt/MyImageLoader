@@ -139,6 +139,7 @@ public class ImageLoader {
             @Override
             public void run() {
 
+                //加载后结果通过Hander要给主UI显示
                 Bitmap bitmap = loadBitmap(uri, reqWidth, reqHeight);
                 if (bitmap != null) {
 
